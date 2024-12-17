@@ -1,0 +1,641 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    height: 60%;
+    width: 10%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.links {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.links a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page1 {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+}
+
+.page1-image {
+    height: 60vh;
+    width: 60vw;
+}
+
+.page1-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.page1-text {
+    height: 40vh;
+    width: 50vw;
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur {
+    height: 100%;
+    width: 20%;
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-only {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1-text h3 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+    padding-bottom: 5px;
+
+}
+
+.page1-text h1 {
+    font-size: 2.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+    color: #20122F;
+    padding-bottom: 30px;
+}
+
+.page1-text button {
+    padding: 15px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #4C2963;
+    color: white;
+    font-weight: 700;
+}
+
+#page2 {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#page2 h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page2-part1 {
+    height: 25vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page2-part1 .card {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.page2-part1 .card h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page2-part1 .card p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page2-img {
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page2-img .imgcard {
+    height: 100%;
+    width: 20%;
+}
+
+.page2-img .imgcard img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.page2-img .imgcard h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #402F50;
+}
+
+.te {
+    text-align: center;
+    padding: 0px 20rem;
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #402F50;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-container {
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgA {
+    height: 100%;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.imgB {
+    height: 100%;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img1 {
+    height: 55%;
+    width: 100%;
+}
+
+.img2 {
+    height: 40%;
+    width: 110%;
+}
+
+.img3 {
+    height: 40%;
+    width: 100%;
+}
+
+.img4 {
+    height: 55%;
+    width: 100%;
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    height: 60vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.text-container h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text-container button {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #20122F;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#page4 h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page4 .img4-container {
+    height: 70vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img4A,
+.img4C {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img41 {
+    height: 48%;
+    width: 100%;
+}
+
+.img42 {
+    height: 48%;
+    width: 100%;
+}
+
+.img4B {
+    height: 100%;
+    width: 26%;
+}
+
+.img4A img,
+.img4B img,
+.img4C img,
+.img41 img,
+.img42 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page4 button {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #20122F;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+#page5 {
+    height: 30vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#page5 h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last button {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #20122F;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+.last .underline {
+    border: none;
+    border-bottom: 2px solid #B1B1B1;
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 70vh;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.footer-frist {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: -100px;
+}
+
+.footer-text {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-text p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: #4F4F4F;
+}
+
+.footer-text ul {
+    list-style-type: none;
+}
+
+.footer-text li {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #4F4F4F;
+    line-height: 20px;
+}
+
+.footer-text h3 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #4F4F4F;
+}
+
+.footer-last {
+    height: 20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.footer-last i {
+    font-size: 1.5rem;
+}
+
+@media (max-width:600px) {
+    nav {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    #page1 {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .page1-image {
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .page1-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 50px;
+    }
+
+    .page1-text {
+        height: 40vh;
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+
+    .blur {
+        height: 100%;
+        width: 20%;
+    }
+
+    .text-only {
+        height: 100%;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .page1-text h3 {
+        font-size: 1rem;
+    }
+
+    .page1-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .page1-text button {
+        padding: 15px 10px;
+        font-size: 1rem;
+    }
+
+    #page2 {
+        height: 300vh;
+    }
+
+    #page2 h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .page2-part1 {
+        height: 25vh;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .page2-img {
+        height: 200vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .page2-img .imgcard {
+        height: 100%;
+        width: 80%;
+    }
+
+    .page2-img .imgcard img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .te {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    #page3 {
+        height: 170vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .img-container {
+        height: 100vh;
+        width: 90vw;
+    }
+
+    .text-container {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    #page4 {
+        height: 120vh;
+        width: 100%;
+    }
+
+    #page5 {
+        height: 50vh;
+        width: 100%;
+    }
+
+    #page5 h1 {
+        padding: 50px;
+    }
+
+    .last {
+        height: 60%;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .last .underline {
+        width: 90%;
+    }
+
+    footer {
+        height: 120vh;
+        width: 100%;
+        background-color: #F8F8F8;
+    }
+
+    .footer-frist {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -100px;
+    }
+
+    .footer-text {
+        height: 100%;
+        width: 90%;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-last {
+        width: 80%;
+    }
+
+}
